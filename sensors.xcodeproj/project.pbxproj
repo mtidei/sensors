@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41DAE136008B339BE100FB36 /* libPods-sensors.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE236E6E2B06B13D3F4B1FB /* libPods-sensors.a */; };
 		880434C81A3C4CB300ED05B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880434C71A3C4CB300ED05B5 /* AppDelegate.swift */; };
 		880434CA1A3C4CB300ED05B5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880434C91A3C4CB300ED05B5 /* FirstViewController.swift */; };
-		880434CC1A3C4CB300ED05B5 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880434CB1A3C4CB300ED05B5 /* SecondViewController.swift */; };
-		880434CF1A3C4CB300ED05B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880434CD1A3C4CB300ED05B5 /* Main.storyboard */; };
 		880434D11A3C4CB300ED05B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880434D01A3C4CB300ED05B5 /* Images.xcassets */; };
 		880434D41A3C4CB300ED05B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880434D21A3C4CB300ED05B5 /* LaunchScreen.xib */; };
 		880434E01A3C4CB300ED05B5 /* sensorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880434DF1A3C4CB300ED05B5 /* sensorsTests.swift */; };
+		880434EB1A3C7D1700ED05B5 /* CocoaLumberjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880434EA1A3C7D1700ED05B5 /* CocoaLumberjack.swift */; };
+		880434EC1A3C7D1700ED05B5 /* CocoaLumberjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880434EA1A3C7D1700ED05B5 /* CocoaLumberjack.swift */; };
+		880434EF1A3DC61B00ED05B5 /* SensorRanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880434EE1A3DC61B00ED05B5 /* SensorRanges.swift */; };
+		880434F11A3DFC0100ED05B5 /* IntegrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880434F01A3DFC0100ED05B5 /* IntegrationViewController.swift */; };
+		880434F31A3DFFED00ED05B5 /* DeviceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880434F21A3DFFED00ED05B5 /* DeviceLocation.swift */; };
+		880434F51A4464D800ED05B5 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880434F41A4464D800ED05B5 /* Ring.swift */; };
+		880434F81A4468BB00ED05B5 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880434F71A4468BB00ED05B5 /* GraphView.swift */; };
+		880434FA1A4880BD00ED05B5 /* Pedometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880434F91A4880BD00ED05B5 /* Pedometer.swift */; };
+		880434FE1A49CE9F00ED05B5 /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880434F41A4464D800ED05B5 /* Ring.swift */; };
+		8829AE941A49D0B700E00C32 /* RingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8829AE931A49D0B700E00C32 /* RingTests.swift */; };
+		88A38B351A49D9C900A6544F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880434CD1A3C4CB300ED05B5 /* Main.storyboard */; };
+		88A38B361A49D9E700A6544F /* GraphsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880434CB1A3C4CB300ED05B5 /* GraphsViewController.swift */; };
+		DDF4FE577F271AFBD466087F /* libPods-sensorsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB74ADC7BF4538CD6C633EE /* libPods-sensorsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +39,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BE236E6E2B06B13D3F4B1FB /* libPods-sensors.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sensors.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DD924E62F49859B7312337C /* Pods-sensors.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensors.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sensors/Pods-sensors.debug.xcconfig"; sourceTree = "<group>"; };
+		3DD32A6D35A20E3369569772 /* Pods-sensorsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensorsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sensorsTests/Pods-sensorsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		565920C4B35308EC3F7668AC /* Pods-sensors.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensors.release.xcconfig"; path = "Pods/Target Support Files/Pods-sensors/Pods-sensors.release.xcconfig"; sourceTree = "<group>"; };
 		880434C21A3C4CB300ED05B5 /* sensors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sensors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		880434C61A3C4CB300ED05B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		880434C71A3C4CB300ED05B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		880434C91A3C4CB300ED05B5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		880434CB1A3C4CB300ED05B5 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		880434CB1A3C4CB300ED05B5 /* GraphsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphsViewController.swift; sourceTree = "<group>"; };
 		880434CE1A3C4CB300ED05B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		880434D01A3C4CB300ED05B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		880434D31A3C4CB300ED05B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		880434D91A3C4CB300ED05B5 /* sensorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sensorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		880434DE1A3C4CB300ED05B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		880434DF1A3C4CB300ED05B5 /* sensorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sensorsTests.swift; sourceTree = "<group>"; };
+		880434E91A3C625F00ED05B5 /* Pods-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Pods-Bridging-Header.h"; path = "../Pods-Bridging-Header.h"; sourceTree = "<group>"; };
+		880434EA1A3C7D1700ED05B5 /* CocoaLumberjack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaLumberjack.swift; sourceTree = "<group>"; };
+		880434EE1A3DC61B00ED05B5 /* SensorRanges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorRanges.swift; sourceTree = "<group>"; };
+		880434F01A3DFC0100ED05B5 /* IntegrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrationViewController.swift; sourceTree = "<group>"; };
+		880434F21A3DFFED00ED05B5 /* DeviceLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceLocation.swift; sourceTree = "<group>"; };
+		880434F41A4464D800ED05B5 /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		880434F71A4468BB00ED05B5 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		880434F91A4880BD00ED05B5 /* Pedometer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pedometer.swift; sourceTree = "<group>"; };
+		8829AE931A49D0B700E00C32 /* RingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingTests.swift; sourceTree = "<group>"; };
+		ADB74ADC7BF4538CD6C633EE /* libPods-sensorsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sensorsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF98D90FE00B234B4A453B98 /* Pods-sensorsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sensorsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sensorsTests/Pods-sensorsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41DAE136008B339BE100FB36 /* libPods-sensors.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +80,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF4FE577F271AFBD466087F /* libPods-sensorsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BD477A86FFD648047EFFCC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DD924E62F49859B7312337C /* Pods-sensors.debug.xcconfig */,
+				565920C4B35308EC3F7668AC /* Pods-sensors.release.xcconfig */,
+				3DD32A6D35A20E3369569772 /* Pods-sensorsTests.debug.xcconfig */,
+				FF98D90FE00B234B4A453B98 /* Pods-sensorsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		880434B91A3C4CB300ED05B5 = {
 			isa = PBXGroup;
 			children = (
 				880434C41A3C4CB300ED05B5 /* sensors */,
 				880434DC1A3C4CB300ED05B5 /* sensorsTests */,
 				880434C31A3C4CB300ED05B5 /* Products */,
+				4BD477A86FFD648047EFFCC2 /* Pods */,
+				BAD55BEF3F0B0BE486099693 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +121,18 @@
 		880434C41A3C4CB300ED05B5 /* sensors */ = {
 			isa = PBXGroup;
 			children = (
+				880434F61A4468A300ED05B5 /* view */,
+				880434ED1A3DC5F400ED05B5 /* model */,
+				880434E91A3C625F00ED05B5 /* Pods-Bridging-Header.h */,
 				880434C71A3C4CB300ED05B5 /* AppDelegate.swift */,
 				880434C91A3C4CB300ED05B5 /* FirstViewController.swift */,
-				880434CB1A3C4CB300ED05B5 /* SecondViewController.swift */,
+				880434F01A3DFC0100ED05B5 /* IntegrationViewController.swift */,
+				880434CB1A3C4CB300ED05B5 /* GraphsViewController.swift */,
 				880434CD1A3C4CB300ED05B5 /* Main.storyboard */,
 				880434D01A3C4CB300ED05B5 /* Images.xcassets */,
 				880434D21A3C4CB300ED05B5 /* LaunchScreen.xib */,
 				880434C51A3C4CB300ED05B5 /* Supporting Files */,
+				880434EA1A3C7D1700ED05B5 /* CocoaLumberjack.swift */,
 			);
 			path = sensors;
 			sourceTree = "<group>";
@@ -102,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				880434DF1A3C4CB300ED05B5 /* sensorsTests.swift */,
+				8829AE931A49D0B700E00C32 /* RingTests.swift */,
 				880434DD1A3C4CB300ED05B5 /* Supporting Files */,
 			);
 			path = sensorsTests;
@@ -115,6 +163,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		880434ED1A3DC5F400ED05B5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				880434EE1A3DC61B00ED05B5 /* SensorRanges.swift */,
+				880434F21A3DFFED00ED05B5 /* DeviceLocation.swift */,
+				880434F41A4464D800ED05B5 /* Ring.swift */,
+				880434F91A4880BD00ED05B5 /* Pedometer.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		880434F61A4468A300ED05B5 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				880434F71A4468BB00ED05B5 /* GraphView.swift */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		BAD55BEF3F0B0BE486099693 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BE236E6E2B06B13D3F4B1FB /* libPods-sensors.a */,
+				ADB74ADC7BF4538CD6C633EE /* libPods-sensorsTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 880434E31A3C4CB300ED05B5 /* Build configuration list for PBXNativeTarget "sensors" */;
 			buildPhases = (
+				FC7E5E42BD338477BB281DCA /* Check Pods Manifest.lock */,
 				880434BE1A3C4CB300ED05B5 /* Sources */,
 				880434BF1A3C4CB300ED05B5 /* Frameworks */,
 				880434C01A3C4CB300ED05B5 /* Resources */,
+				D88F0E7511C5E9121AC2A811 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 880434E61A3C4CB300ED05B5 /* Build configuration list for PBXNativeTarget "sensorsTests" */;
 			buildPhases = (
+				DD7257C5B38745AE472CEDEA /* Check Pods Manifest.lock */,
 				880434D51A3C4CB300ED05B5 /* Sources */,
 				880434D61A3C4CB300ED05B5 /* Frameworks */,
 				880434D71A3C4CB300ED05B5 /* Resources */,
+				D1035D72048278DB25FD9E38 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,7 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880434CF1A3C4CB300ED05B5 /* Main.storyboard in Resources */,
+				88A38B351A49D9C900A6544F /* Main.storyboard in Resources */,
 				880434D41A3C4CB300ED05B5 /* LaunchScreen.xib in Resources */,
 				880434D11A3C4CB300ED05B5 /* Images.xcassets in Resources */,
 			);
@@ -210,12 +290,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D1035D72048278DB25FD9E38 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sensorsTests/Pods-sensorsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D88F0E7511C5E9121AC2A811 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sensors/Pods-sensors-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD7257C5B38745AE472CEDEA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7E5E42BD338477BB281DCA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		880434BE1A3C4CB300ED05B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880434CC1A3C4CB300ED05B5 /* SecondViewController.swift in Sources */,
+				880434F31A3DFFED00ED05B5 /* DeviceLocation.swift in Sources */,
+				880434EF1A3DC61B00ED05B5 /* SensorRanges.swift in Sources */,
+				880434F81A4468BB00ED05B5 /* GraphView.swift in Sources */,
+				880434F11A3DFC0100ED05B5 /* IntegrationViewController.swift in Sources */,
+				880434FA1A4880BD00ED05B5 /* Pedometer.swift in Sources */,
+				880434EB1A3C7D1700ED05B5 /* CocoaLumberjack.swift in Sources */,
+				880434F51A4464D800ED05B5 /* Ring.swift in Sources */,
+				88A38B361A49D9E700A6544F /* GraphsViewController.swift in Sources */,
 				880434C81A3C4CB300ED05B5 /* AppDelegate.swift in Sources */,
 				880434CA1A3C4CB300ED05B5 /* FirstViewController.swift in Sources */,
 			);
@@ -225,7 +375,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				880434FE1A49CE9F00ED05B5 /* Ring.swift in Sources */,
+				8829AE941A49D0B700E00C32 /* RingTests.swift in Sources */,
 				880434E01A3C4CB300ED05B5 /* sensorsTests.swift in Sources */,
+				880434EC1A3C7D1700ED05B5 /* CocoaLumberjack.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +450,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -333,6 +487,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -340,6 +495,7 @@
 		};
 		880434E41A3C4CB300ED05B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD924E62F49859B7312337C /* Pods-sensors.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sensors/Info.plist;
@@ -350,6 +506,7 @@
 		};
 		880434E51A3C4CB300ED05B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565920C4B35308EC3F7668AC /* Pods-sensors.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sensors/Info.plist;
@@ -360,6 +517,7 @@
 		};
 		880434E71A3C4CB300ED05B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DD32A6D35A20E3369569772 /* Pods-sensorsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -379,6 +537,7 @@
 		};
 		880434E81A3C4CB300ED05B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF98D90FE00B234B4A453B98 /* Pods-sensorsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -411,6 +570,7 @@
 				880434E51A3C4CB300ED05B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		880434E61A3C4CB300ED05B5 /* Build configuration list for PBXNativeTarget "sensorsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +579,7 @@
 				880434E81A3C4CB300ED05B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

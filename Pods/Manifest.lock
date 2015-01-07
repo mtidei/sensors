@@ -1,0 +1,30 @@
+PODS:
+  - CocoaLumberjack (2.0.0-rc):
+    - CocoaLumberjack/Default (= 2.0.0-rc)
+    - CocoaLumberjack/Extensions (= 2.0.0-rc)
+  - CocoaLumberjack/Core (2.0.0-rc)
+  - CocoaLumberjack/Default (2.0.0-rc):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.0.0-rc):
+    - CocoaLumberjack/Default
+  - CorePlot (99.99.99)
+
+DEPENDENCIES:
+  - CocoaLumberjack (~> 2.0.0-beta4)
+  - CorePlot (from `https://github.com/core-plot/core-plot.git`, branch `release-2.0`)
+
+EXTERNAL SOURCES:
+  CorePlot:
+    :branch: release-2.0
+    :git: https://github.com/core-plot/core-plot.git
+
+CHECKOUT OPTIONS:
+  CorePlot:
+    :commit: 447423d10b4ba0ed5721cc59d23d41a67c645041
+    :git: https://github.com/core-plot/core-plot.git
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 6186e27827fc574b50b16c10102fcc591437f06c
+  CorePlot: 84da6372fbebe1c5dd7272e04e64a51b4e4893b0
+
+COCOAPODS: 0.35.0
